@@ -15,6 +15,10 @@ TO USE REDUX IN YOUR REACT APP and give your app access to the REDUX STATE</br>
 #### Wrap App component with Provider component </br>
 #### This tells redux-react that we want the whole app to have access to the store, states and actions we created in the store file </br>
 
+        <Provider> 
+          <App />
+        </Provider>
+
 ## 3RD 
 In the Provider component pass in the store
 

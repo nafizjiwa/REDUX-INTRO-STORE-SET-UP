@@ -1,4 +1,4 @@
-# REDUX-Intro
+# REDUX -  STORE SET UP 
 
 TO USE REDUX IN YOUR REACT APP and give your app access to the REDUX STATE</br>
 

@@ -32,13 +32,14 @@ In the Provider component pass in the store as a prop to Provider component
     ))
 
 ## 4TH
-- Create a store --- In a file called store.js
-- The store holds the App's state and the logic to update the state
-- The store allows the Components to access state without passing it manually through props
+- Create a STORE --- In a file called store.js
+- The STORE holds the App's state and the logic to update the state
+- The STORE allows the Components to access state without passing it manually through props
 
  1st
     --store.js--
      import { configureStore } from '@reduxjs/toolkit'        --> Import function configureStore to setup store
+     
 2nd
     --store.js--
      import { configureStore } from '@reduxjs/toolkit' 

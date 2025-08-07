@@ -56,6 +56,14 @@ In the Provider component pass in the store as a prop to Provider component
              },
          });       
  4th 
+     --store.js--
+     import { configureStore } from '@reduxjs/toolkit' 
+     
+     const store = configureStore({
+         reducer: {                                           
+         todos: todoReducer,                                  
+             },
+         });       
      export default store;                                    --> 4th Export the store to use in the Provider component app above
 
 

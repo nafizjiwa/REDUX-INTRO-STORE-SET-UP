@@ -38,25 +38,25 @@ In the Provider component pass in the store as a prop to Provider component
 
  1st
     --store.js--
-     import { configureStore } from '@reduxjs/toolkit'        --> Import function configureStore to setup store
+     import { configureStore } from '@reduxjs/toolkit'        --> 1st Import function configureStore to setup store
      
-2nd
+ 2nd
     --store.js--
-     import { configureStore } from '@reduxjs/toolkit' 
+     import { configureStore } from '@reduxjs/
      
-     const store = configureStore({ })                         --> Define constant store
+     const store = configureStore({ })                         --> 2nd Define constant store
     
-3rd 
+ 3rd 
      --store.js--
      import { configureStore } from '@reduxjs/toolkit' 
      
      const store = configureStore({
-         reducer: {                                           --> Define a reducer to manage all reducers
-         todos: todoReducer,                                  --> Add a reducer to call
+         reducer: {                                           --> 3rd Define a reducer to manage all reducers
+         todos: todoReducer,                                  --> then Add a reducer to call
              },
          });       
-         
-     export default store;                                    --> Export the store to use in the Provider component app above
+ 4th 
+     export default store;                                    --> 4th Export the store to use in the Provider component app above
 
 
 ## SUMMARY
